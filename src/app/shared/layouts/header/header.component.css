@@ -1,0 +1,7 @@
+.navbar {
+    position: fixed; /* Use Bootstrap's positioning class */
+    top: 0; /* Ensure it's positioned at the top */
+    left: 0; /* Ensure it spans the entire width */
+    width: 100%; /* Ensure it spans the entire width */
+    z-index: 900; /* Set a high z-index to ensure it appears on top */
+  }

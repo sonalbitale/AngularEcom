@@ -1,0 +1,161 @@
+{
+  "user": [
+    {
+      "name": "sonal bitale",
+      "mobNumber": "7420973084",
+      "age": 21,
+      "dob": "28-05-2002",
+      "email": "sonalbitale93@gmail.com",
+      "password": "123456",
+      "address": {
+        "addLine1": "District center",
+        "addLine2": "janakpuri",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "zipCode": "110052"
+      },
+      "language": [
+        "English",
+        "Hindi",
+        "English"
+      ],
+      "gender": "feMale",
+      "aboutYou": "I am a programmer",
+      "uploadPhoto": "Screenshot (232).png",
+      "agreetc": true,
+      "role": "admin",
+      "id": "1"
+    },
+    {
+      "id": "3699",
+      "aboutYou": "asdfghjklkjhgfds",
+      "age": 24,
+      "agreetc": true,
+      "dob": "2024-04-04",
+      "email": "vaishu@gmail.com",
+      "gender": "Female",
+      "address": {
+        "id": 0,
+        "addLine1": "yewalewadi,pune",
+        "addLine2": "urban nagpur",
+        "city": "yewalewadi",
+        "state": "...",
+        "zipCode": "441108"
+      },
+      "language": [
+        "English"
+      ],
+      "mobNumber": "86685675634",
+      "name": "vaishu",
+      "password": "vaishu",
+      "uploadPhoto": "C:\\fakepath\\Screenshot (51).png",
+      "role": "buyer"
+    },
+    {
+      "id": "4665",
+      "aboutYou": "asdfghjk",
+      "age": 20,
+      "agreetc": true,
+      "dob": "2024-04-13",
+      "email": "ashu@gmail.com",
+      "gender": "Female",
+      "address": {
+        "id": 0,
+        "addLine1": "yewalewadi,pune",
+        "addLine2": "urban nagpur",
+        "city": "yewalewadi",
+        "state": "...",
+        "zipCode": "441108"
+      },
+      "language": [
+        "Marathi"
+      ],
+      "mobNumber": "07420973084",
+      "name": "ashlesha",
+      "password": "ashu123",
+      "uploadPhoto": "C:\\fakepath\\admissionfeesreceipt.jpeg",
+      "role": "seller"
+    },
+    {
+      "id": "cbb5",
+      "aboutYou": "ekekekekek",
+      "age": 23,
+      "agreetc": true,
+      "dob": "2024-04-20",
+      "email": "niki@gmail.com",
+      "gender": "Female",
+      "address": {
+        "id": 0,
+        "addLine1": "yewalewadi,pune",
+        "addLine2": "urban nagpur",
+        "city": "yewalewadi",
+        "state": "...",
+        "zipCode": "441108"
+      },
+      "language": [
+        "English",
+        "Marathi"
+      ],
+      "mobNumber": "56789043245",
+      "name": "nikita",
+      "password": "123321",
+      "uploadPhoto": "C:\\fakepath\\admissionnreceiptclg.jpeg",
+      "role": "seller"
+    }
+  ],
+  "Products": [
+    {
+      "id": "1",
+      "name": "polyester Door curtain",
+      "uploadPhoto": "https://www.google.com/search?sca_esv=a61e49a546dd9453&q=polyester+door+curtain&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjf0Yi16vqEAxUYZmwGHSz3B7wQ0pQJegQIDRAB&biw=960&bih=960&dpr=1",
+      "productDesc": " highly durable and strong",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": "2",
+      "name": "water Bottle",
+      "uploadPhoto": "https://www.google.com/search?sca_esv=39108e8eef4c5168&q=water+bottle&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjMsdbzhvuEAxXiRmcHHXCyDyMQ0pQJegQIDRAB&biw=960&bih=960&dpr=1#imgrc=GvI2QbtAcZbnZM",
+      "productDesc": "This water bottle comes with various motivational phrases, plus a time marker to encourage you to drink more water and keep a record of how much water you consume during the day",
+      "mrp": "1000",
+      "dp": "200",
+      "status": "publish"
+    },
+    {
+      "id": "3",
+      "name": "water Bottle adv",
+      "uploadPhoto": "https://www.google.com/search?sca_esv=39108e8eef4c5168&q=water+bottle&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjMsdbzhvuEAxXiRmcHHXCyDyMQ0pQJegQIDRAB&biw=960&bih=960&dpr=1#imgrc=N85lVcsw5Nh8cM",
+      "productDesc": "portable",
+      "mrp": "1500",
+      "dp": "290",
+      "status": "inactive"
+    }
+  ],
+  "Orders": [
+    {
+      "id": "1",
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "polyester Door curtain",
+        "uploadPhoto": "https://www.google.com/search?sca_esv=a61e49a546dd9453&q=polyester+door+curtain&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjf0Yi16vqEAxUYZmwGHSz3B7wQ0pQJegQIDRAB&biw=960&bih=960&dpr=1",
+        "productDesc": " highly durable and strong",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addressLine1": "Marathali",
+        "addresLine2": "Aswathnagar",
+        "city": "Banglore",
+        "state": "choose...",
+        "zipcode": 560037
+      },
+      "contact": "09040398006",
+      "dateTime": "18/3/2024"
+    }
+  ]
+}
